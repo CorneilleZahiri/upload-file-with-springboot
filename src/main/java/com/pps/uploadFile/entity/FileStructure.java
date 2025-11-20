@@ -14,7 +14,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @Getter
 @Setter
-public class FileUpload {
+public class FileStructure {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
